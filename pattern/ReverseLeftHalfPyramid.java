@@ -11,13 +11,15 @@ public class ReverseLeftHalfPyramid {
         System.out.println("Printing Pattern....");
 
         // Enter into Row
-        for(int i=5; i>=1; i--){
-            for(int j=n; j>=i; j--){
+        for(int i=1; i<=n; i++){
+            // J starts with n and which is always greater than n-1 and 
+            for(int j=n; j>=n-i; j--){
                 System.out.print(" ");
             }
             for(int j=n; j>=i; j--){
                 System.out.print("*");
             }
+
             System.out.println();
         }
         input.close();
