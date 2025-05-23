@@ -1,4 +1,4 @@
-package chapter1;
+package Basic;
 // In this we learn taking input from system and evalute them
 
 import java.util.Scanner;

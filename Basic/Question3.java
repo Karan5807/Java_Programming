@@ -1,4 +1,4 @@
-package chapter1;
+package Basic;
 // In this we use to demonstarte a program with multiple classes and their execuation and calling.
 //  For Example we create a Class Room in which we added two variable and one function
 class Room{

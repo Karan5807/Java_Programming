@@ -1,5 +1,5 @@
 // This line first call the Package means which consist folder name as package.
-package chapter1;
+package Basic;
 // This line having a class name or may be the page name 
 class Question1{
     //   Public means Access modifier: Means this method can be called from anywhere by the Java runtime, by other classes.

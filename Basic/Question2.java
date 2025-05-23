@@ -1,4 +1,4 @@
-package chapter1;
+package Basic;
 // In this we learn about variable declartion and Intialzation and good way of printing.
 public class Question2 {
     public static void main(String args[]){
