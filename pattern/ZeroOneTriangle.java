@@ -1,4 +1,4 @@
-package pattern;
+package Pattern;
 import java.util.Scanner;
 
 public class ZeroOneTriangle {
