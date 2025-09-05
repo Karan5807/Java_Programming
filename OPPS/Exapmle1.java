@@ -1,5 +1,6 @@
 package OPPS;
-
+//  This is a simple use case of OOP concet 
+// Here we first define class then we further procced with main class
 class Car {
     String brand;
     String name;
