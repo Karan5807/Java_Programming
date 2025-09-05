@@ -1,6 +1,6 @@
 package OPPS;
 // This is an exapmle of Paramterized constructor 
-class Customer{
+class CustomerD{
     String name;
     String gender;
     int accNo;
@@ -16,8 +16,8 @@ class Customer{
 
     // We pass parameter into the Customer Class
     // As we the parameter we pass their name is different from defiend variable 
-    Customer( String fullName, String gen, int accNum, int amount){
-        this.name = fullName;
+    CustomerD( String fullName, String gen, int accNum, int amount){
+        this.name = fullName; // Here this.name = fullName means String name given value to fullName
         this.gender = gen;
         this.accNo = accNum;
         this.balance = amount;
@@ -26,7 +26,9 @@ class Customer{
 
 public class parameterCons {
  public static void main(String args[]){
-    Customer cust1 = new Customer("Singh Karan", "M", 12345, 342354);
+    CustomerD cust1 = new CustomerD("Singh Karan", "M", 3423424, 74637);
+    CustomerD cust2 = cust1; // Here we Use Compy Constructor where we copy the data of One Object to another Object just creating another object and assign that any previous object.
     cust1.getCustbala();
+    cust2.getCustInfo();
  }   
 }

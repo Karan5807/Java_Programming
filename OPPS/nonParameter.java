@@ -11,9 +11,6 @@ class Customer {
         System.out.println(this.name);
         System.out.println(this.gender);
         System.out.println(this.accNo);
-    }
-
-    public void getbalance() {
         System.out.println(this.balance);
     }
 
@@ -39,7 +36,7 @@ public class nonParameter {
         cust2.balance = 65734;
         cust2.name = "sanhgi";
         cust2.gender = "feMale"; 
-        cust2.getbalance();
+        cust2.getCustdetail();
 
     }
 }
